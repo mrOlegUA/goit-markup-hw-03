@@ -6,12 +6,41 @@
   --light-background: #f4f4fd;
   --white-background: #ffffff;
 }
+/* --reset-- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.link {
+  color: currentColor;
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
+button {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
 /* --body-- */
 
 .list {
   list-style: none;
-  }
+}
 .link {
   text-decoration: none;
 }
@@ -25,9 +54,23 @@ body {
 }
 .text-main {
   color: var(--text-main, #434455);
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
+.container {
+  width: 1128px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid red;
+ }
 /* --header-- */
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .logo-web {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -62,7 +105,7 @@ body {
   color: var(--pressed-state, #404bbf);
 }
 .nahua {
- font-style: normal;
+  font-style: normal;
 }
 .link-contact {
   letter-spacing: 0.02em;
@@ -76,6 +119,7 @@ body {
 /* --hero-- */
 .hero-img {
   background-color: var(--hero-background, #2e2f42);
+  height: 600px;
 }
 .text-hero {
   font-weight: 700;
@@ -84,7 +128,8 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white-background, #ffffff);
- 
+  padding-top: 180px;
+  padding-bottom: 47px;
 }
 .button-order {
   font-family: inherit;
@@ -99,30 +144,69 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  width: 169px;
+  height: 56px;
+  margin-bottom: 197px;
 }
 .button-order:hover,
 .button-order:focus {
-  color: tomato;
+  color: var(--white-background, #ffffff);
   background: var(--pressed-state, #404bbf);
 }
 /* --our advantages-- */
-.text-subtitle {
+.container-advantages {
+  display: flex;
+  align-items: start;
+}
+.subtitle-advantages:nth-child(4) {
+  margin-right: 0px;
+  background-color: orange;
+}
+.subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--hero-background, #2e2f42);
 }
+.subtitle-advantages {
+  padding-top: 120px;
+  padding-bottom: 8px;
+}
+.text-advantages {
+  margin-right: 24px;
+}
 
-/* --What are we doing-- */
-/* --Our Team-- */
-.our-team {
+/* --worc-- */
+.container-work {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title-work {
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+/* --Team-- */
+.container-team {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.team {
   background-color: var(--light-background, #f4f4fd);
 }
 .background-white {
   background-color: var(--white-background, #ffffff);
 }
-.text-title {
+
+.title-team {
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+.title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -130,6 +214,15 @@ body {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   color: var(--hero-background, #2e2f42);
+}
+.subtitle-team {
+  padding-top: 32px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+.text-team {
+  padding-bottom: 32px;
+  text-align: center;
 }
 /* --footer-- */
 .footer {
@@ -173,4 +266,17 @@ body {
 
   color: var(--white-background, #ffffff);
   cursor: pointer;
+}
+
+.h2-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
