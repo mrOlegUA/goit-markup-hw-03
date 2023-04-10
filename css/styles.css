@@ -61,14 +61,11 @@ body {
   outline: var(--outline);
 }
 /* --header-- */
+
 .header-container {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
-}
-.nav-container {
-   display: flex;
-   align-items: center;
 }
 .nav-menu {
   display: flex;
@@ -249,6 +246,7 @@ body {
 }
 .footer-container {
   width: 264px;
+  margin-left: 76px;
 }
 .logo-web-foot {
   font-family: 'Raleway', sans-serif;
