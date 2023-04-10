@@ -199,12 +199,14 @@ body {
   padding-bottom: 72px;
 }
 /* --Team-- */
-.container-team {
+.team-container {
+ background-color: var(--light-background, #f4f4fd)
+}
+
+.team-menu {
   display: flex;
   justify-content: space-between;
-}
-.team {
-  background-color: var(--light-background, #f4f4fd);
+ ;
 }
 .team-list {
    background-color: var(--white-background, #ffffff);
