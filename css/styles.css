@@ -189,16 +189,20 @@ padding-bottom: 120px;
   padding-bottom: 8px;
 }
 /* --worc-- */
-.container-work {
-  display: flex;
-  justify-content: space-between;
-}
-.work-item {
-  padding-bottom: 120px;
+.work-container {
+padding-bottom: 120px;
 }
 .title-work {
   padding-bottom: 72px;
 }
+.work-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.work-item {
+  margin-right: 24px
+}
+
 /* --Team-- */
 .team-container {
   background-color: var(--light-background, #f4f4fd);
