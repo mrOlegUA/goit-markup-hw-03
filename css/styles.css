@@ -66,12 +66,17 @@ body {
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
 }
+.nav-container {
+   display: flex;
+   align-items: center;
+}
 .nav-menu {
   display: flex;
+  align-items: center;
 }
-
 .logo-web {
   margin-right: 76px;
+  margin-left: 76px;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -103,6 +108,7 @@ body {
 }
 .adress-menu {
   display: flex;
+  align-items: center;
   justify-content: end;
 }
 .link-contact {
@@ -243,6 +249,17 @@ body {
 }
 .footer-container {
   width: 264px;
+}
+.logo-web-foot {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand, #4d5ae5);
+  text-decoration: none;
 }
 .logo-white {
   margin-top: 100px;
