@@ -122,11 +122,10 @@ body {
   color: var(--pressed-state, #404bbf);
 }
 /* --hero-- */
-.hero-img {
-  background-color: var(--hero-background, #2e2f42);
-  height: 600px;
-}
 .hero-container {
+  background-color: var(--hero-background, #2e2f42);
+}
+.hero-text-container {
   height: 600px;
   width: 500px;
   margin-left: auto;
@@ -295,7 +294,6 @@ margin-right: 0px;
 .portfolio-item a {
   width: 360px;
   margin-bottom: 24px;
-  .port
 }
 .subtitle-info {
   padding-top: 32px;
