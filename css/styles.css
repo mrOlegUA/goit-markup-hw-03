@@ -137,6 +137,7 @@ body {
 .text-hero {
   padding-top: 180px;
   padding-bottom: 47px;
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -148,7 +149,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 197px;
-  display: block;
   align-items: center;
   padding: 16px 32px;
   font-weight: 500;
@@ -157,8 +157,9 @@ body {
   background-color: var(--primary-brand, #4d5ae5);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  width: 180px;
+  min-width: 169px;
   height: 58px;
+  border: none;
 }
 .button-order:hover,
 .button-order:focus {
