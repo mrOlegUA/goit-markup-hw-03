@@ -13,15 +13,15 @@
       rel="stylesheet"
     />
     <!-- Normalize -->
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css" />
     <!-- css -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- header -->
     <header class="header">
-      <div class="container header-container">
-        <nav class="header-container">
+      <div class="header-container container">
+        <nav class="header-nav">
           <a class="logo-web link" href="./index.html"
             >WEB<span class="logo-black link">Studio</span></a
           >
@@ -37,11 +37,11 @@
             </li>
           </ul>
         </nav>
-        <address class="header-container">
+        <address>
           <ul class="list adress-menu">
             <li class="adress-item">
               <a
-                class="link-contact link"
+                class="address-text link"
                 href="mailto:info@devstudio.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -49,7 +49,7 @@
               >
             </li>
             <li>
-              <a class="link-contact link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+              <a class="address-text link" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
           </ul>
         </address>
@@ -58,9 +58,9 @@
     <!-- main -->
     <main>
       <!-- filter menu -->
-      <section>
-        <h1 class="h2-hidden">portfolio</h1>
-        <div class="container filter-container">
+      <section class="portfolio">
+        <div class="container">
+          <h1 class="h2-hidden">portfolio</h1>
           <ul class="list filter-menu">
             <li>
               <button class="button-filter" type="button">All</button>
@@ -78,146 +78,128 @@
               <button class="button-filter" type="button">Marketing</button>
             </li>
           </ul>
-        </div>
-        <!-- porfolio -->
-        <div class="container">
+
+          <!-- porfolio -->
+
           <ul class="list portfolio-menu">
             <li class="portfolio-item">
-              <div class="portfolio-card">
-                <a class="list link" href="">
-                  <img
-                    src="./images/img1.jpg"
-                    alt="app Banking App Interface Concept"
-                    width="360"
-                    height="300"
-                  />
-                  <h2 class="subtitle subtitle-info"> Banking App Interface Concept </h2>
-                  <p class="text-main text-info">App</p>
-                </a>
-              </div>
+              <a class="list link" href="">
+                <img
+                  src="./images/img1.jpg"
+                  alt="app Banking App Interface Concept"
+                  width="360"
+                  height="300"
+                />
+                <div class="portfolio-card">
+                  <h2 class="subtitle subtitle-card"> Banking App Interface Concept </h2>
+                  <p class="text-main text-card">App</p>
+                </div>
+              </a>
             </li>
             <li class="portfolio-item">
-              <div class="portfolio-card">
-                <a class="list link" href="">
-                  <img
-                    src="./images/img2.jpg"
-                    alt="Marketing Cashless Payment"
-                    width="360"
-                    height="300"
-                  />
-
-                  <h2 class="subtitle subtitle-info"> Cashless Payment </h2>
-                  <p class="text-main text-info">Marketing</p>
-                </a>
-              </div>
+              <a class="list link" href="">
+                <img
+                  src="./images/img2.jpg"
+                  alt="Marketing Cashless Payment"
+                  width="360"
+                  height="300"
+                />
+                <div class="portfolio-card">
+                  <h2 class="subtitle subtitle-card"> Cashless Payment </h2>
+                  <p class="text-main text-card">Marketing</p>
+                </div>
+              </a>
             </li>
             <li>
-              <div class="portfolio-card">
-                <a class="list link" href="">
-                  <img src="./images/img3.jpg" alt="App Meditation App" width="360" height="300" />
-
-                  <h2 class="subtitle subtitle-info">Meditation App</h2>
-                  <p class="text-main text-info">App</p>
-                </a>
-              </div>
+              <a class="list link" href="">
+                <img src="./images/img3.jpg" alt="App Meditation App" width="360" height="300" />
+                <div class="portfolio-card">
+                  <h2 class="subtitle subtitle-card">Meditation App</h2>
+                  <p class="text-main text-card">App</p>
+                </div>
+              </a>
             </li>
             <li class="portfolio-item">
-              <div class="portfolio-card">
-                <a class="list link" href="">
-                  <img
-                    src="./images/img4.jpg"
-                    alt="Marketing Taxi Service"
-                    width="360"
-                    height="300"
-                  />
-
-                  <h2 class="subtitle subtitle-info"> Taxi Service </h2>
-                  <p class="text-main text-info">Marketing</p>
-                </a>
-              </div>
+              <a class="list link" href="">
+                <img
+                  src="./images/img4.jpg"
+                  alt="Marketing Taxi Service"
+                  width="360"
+                  height="300"
+                />
+                <div class="portfolio-card">
+                  <h2 class="subtitle subtitle-card"> Taxi Service </h2>
+                  <p class="text-main text-card">Marketing</p>
+                </div>
+              </a>
             </li>
             <li class="portfolio-item">
-              <div class="portfolio-card">
-                <a class="list link" href="">
-                  <img
-                    src="./images/img5.jpg"
-                    alt="Design Screen Illustrations"
-                    width="360"
-                    height="300"
-                  />
-
-                  <h2 class="subtitle subtitle-info"> Screen Illustrations </h2>
-                  <p class="text-main text-info">Design</p>
-                </a>
-              </div>
+              <a class="list link" href="">
+                <img
+                  src="./images/img5.jpg"
+                  alt="Design Screen Illustrations"
+                  width="360"
+                  height="300"
+                />
+                <div class="portfolio-card">
+                  <h2 class="subtitle subtitle-card"> Screen Illustrations </h2>
+                  <p class="text-main text-card">Design</p>
+                </div>
+              </a>
             </li>
             <li>
-              <div class="portfolio-card">
-                <a class="list link" href="">
-                  <img
-                    src="./images/img6.jpg"
-                    alt="Marketing Online Courses"
-                    width="360"
-                    height="300"
-                  />
-
-                  <h2 class="subtitle subtitle-info"> Online Courses </h2>
-                  <p class="text-main text-info">Marketing</p>
-                </a>
-              </div>
+              <a class="list link" href="">
+                <img
+                  src="./images/img6.jpg"
+                  alt="Marketing Online Courses"
+                  width="360"
+                  height="300"
+                />
+                <div class="portfolio-card">
+                  <h2 class="subtitle subtitle-card"> Online Courses </h2>
+                  <p class="text-main text-card">Marketing</p>
+                </div>
+              </a>
             </li>
             <li class="portfolio-item">
-              <div class="portfolio-card">
-                <a class="list link" href="">
-                  <img
-                    src="./images/img7.jpg"
-                    alt="Design Instagram Stories Concept"
-                    width="360"
-                    height="300"
-                  />
-
-                  <h2 class="subtitle subtitle-info"> Instagram Stories Concept </h2>
-                  <p class="text-main text-info">Design</p>
-                </a>
-              </div>
+              <a class="list link" href="">
+                <img
+                  src="./images/img7.jpg"
+                  alt="Design Instagram Stories Concept"
+                  width="360"
+                  height="300"
+                />
+                <div class="portfolio-card">
+                  <h2 class="subtitle subtitle-card"> Instagram Stories Concept </h2>
+                  <p class="text-main text-card">Design</p>
+                </div>
+              </a>
             </li>
             <li class="portfolio-item">
-              <div class="portfolio-card">
-                <a class="list link" href="">
-                  <img
-                    src="./images/img8.jpg"
-                    alt="Web Site Organic Food"
-                    width="360"
-                    height="300"
-                  />
-
-                  <h2 class="subtitle subtitle-info"> Organic Food </h2>
-                  <p class="text-main text-info">Web Site</p>
-                </a>
-              </div>
+              <a class="list link" href="">
+                <img src="./images/img8.jpg" alt="Web Site Organic Food" width="360" height="300" />
+                <div class="portfolio-card">
+                  <h2 class="subtitle subtitle-card"> Organic Food </h2>
+                  <p class="text-main text-card">Web Site</p>
+                </div>
+              </a>
             </li>
             <li class="portfolio-item">
-              <div class="portfolio-card">
-                <a class="list link" href="">
-                  <img
-                    src="./images/img9.jpg"
-                    alt="Web Site Fresh Coffee"
-                    width="360"
-                    height="300"
-                  />
-
-                  <h2 class="subtitle subtitle-info"> Fresh Coffee </h2>
-                  <p class="text-main text-info">Web Site</p>
-                </a>
-              </div>
+              <a class="list link" href="">
+                <img src="./images/img9.jpg" alt="Web Site Fresh Coffee" width="360" height="300" />
+                <div class="portfolio-card">
+                  <h2 class="subtitle subtitle-card"> Fresh Coffee </h2>
+                  <p class="text-main text-card">Web Site</p>
+                </div>
+              </a>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <!-- footer -->
-    <footer class="footer container">
-      <div class="footer-container">
+    <footer class="footer">
+      <div class="container">
         <a class="logo-web link" href="./index.html"
           >Web<span class="logo-white link">Studio</span></a
         >
