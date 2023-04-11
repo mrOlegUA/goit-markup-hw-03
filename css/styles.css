@@ -191,7 +191,6 @@ body {
   display: flex;
   gap: 24px;
 }
-
 .list-advantages {
   width: calc((100% - 72px) / 4);
 }
@@ -362,7 +361,7 @@ body {
   padding-bottom: 120px;
 }
 */
-.subtitle-info {
+.subtitle-card {
   margin-bottom: 8px;
 }
 
