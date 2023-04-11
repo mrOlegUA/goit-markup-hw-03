@@ -232,9 +232,7 @@ body {
 
 /* --Team-- */
 .team {
-padding: 120px,0px;
-}
-.team-container {
+  padding: 120px, 0px;
 }
 .title-team {
   margin-bottom: 72px;
