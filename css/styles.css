@@ -75,6 +75,7 @@ body {
   align-items: center;
 }
 .logo-web {
+  display: inline-block;
   margin-right: 76px;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -123,11 +124,9 @@ body {
   justify-content: flex-end;
   gap: 40px;
 }
-/*
-.adress-item. {
-  margin-left: 24px;
+.address-item {
+  justify-content: flex-end;
 }
-*/
 .address-text {
   display: inline-block;
   padding-top: 24px;
@@ -278,6 +277,7 @@ body {
 }
 .logo-white {
   display: inline-block;
+  margin-bottom: 16px;
   color: var(--light-background, #f4f4fd);
 }
 .text-footer {
