@@ -125,6 +125,7 @@ body {
   gap: 40px;
 }
 .address-item {
+  display: flex;
   justify-content: flex-end;
 }
 .address-text {
@@ -280,7 +281,6 @@ body {
 }
 .logo-white {
   display: inline-block;
-  margin-bottom: 16px;
   color: var(--light-background, #f4f4fd);
 }
 .text-footer {
