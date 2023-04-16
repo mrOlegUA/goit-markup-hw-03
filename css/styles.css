@@ -70,7 +70,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   justify-content: space-between;
- }
+}
 .header-nav {
   display: flex;
   align-items: center;
@@ -276,7 +276,6 @@ body {
   margin-bottom: 16px;
 }
 .logo-white {
-  display: inline-block;
   color: var(--light-background, #f4f4fd);
 }
 .text-footer {
